@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: lightgreen;
+      color: darkblue;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: black;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 45px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: gray;
+      color: black;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px;
+      background-color: white;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #2b2b7f;
+    }
+
+    .columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .column {
+      background-color: gray;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      width: 300px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: lightgreen;
+      color: darkblue;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .columns {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to CodeLearners</h1>
+    <p>Your Journey to Frontend Mastery Begins Here</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Resources</a>
+    <a href="#">Support</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Explore. Learn. Build.</h1>
+    <p>Start building beautiful websites using HTML & CSS today!</p>
+  </div>
+
+  <div class="columns">
+    <div class="column">
+      <h2>Learn HTML</h2>
+      <p>Master the foundation of web structure using semantic elements and tags.</p>
+    </div>
+    <div class="column">
+      <h2>Style with CSS</h2>
+      <p>Create attractive layouts, apply colors, fonts, and animations.</p>
+    </div>
+    <div class="column">
+      <h2>Hands-on Projects</h2>
+      <p>Reinforce your learning with real-world projects and challenges.</p>
+    </div>
+    <footer>
+    <p>&copy; 2025 My Landing Page. All rights reserved.</p>
+  </footer>
+  </body>
+</html>
